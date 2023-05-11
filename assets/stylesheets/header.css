@@ -1,0 +1,37 @@
+nav{
+    background-image: url(/assets/images/hero.png);
+    min-height: 60vh;
+}
+header{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: flex-end;
+}
+header ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+header ul li{
+    list-style: none;
+}
+h3{
+    margin: 0;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+.top-header ul{
+display: flex;
+width: 75%;
+}
+.top-header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
